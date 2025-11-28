@@ -28,7 +28,7 @@
         background-size: cover;
     }
     
-    .formato-t{
+    /*.formato-t{
         width: 100%;
         padding: 3%;
         text-align: center;
@@ -123,6 +123,8 @@
         margin: auto;
         color:#ff0000;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 5rem;
+        min-height: 10vh;    /* Define una altura mínima del 50% del alto total de la pantalla del usuario */
+        padding: 1%;
     }
 }

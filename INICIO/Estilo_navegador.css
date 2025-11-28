@@ -5,16 +5,17 @@
     max-height: 20vh;               /* Altura máxima del 50% del alto de la pantalla */
     background-color: rgb(0, 0, 0) !important; /* Fondo negro (forzado con !important) */
     position: fixed;                /* La barra queda fija en la parte superior */
-    z-index: 3;                     /* La hace estar por encima de otros elementos */
+    z-index: 2;                      /* La hace estar por encima de otros elementos */
+    font-size: 1.4rem;                    
 }
 
 /* Estilo de los enlaces dentro del navbar */
 .navbar a.nav-link {
-    background-color: white;        /* Fondo blanco para cada botón */
+    background-color: rgb(255, 255, 255);        /* Fondo blanco para cada botón */
     display: flex;
     color: rgb(0, 0, 0) !important;          /* Texto rojo (forzado con !important) */
     padding: 8px 20px !important;   /* Espaciado interno (alto, lados) */
-    margin: 0 10px !important;                  /* Separación horizontal entre botones */
+    margin: 0 25px !important;                  /* Separación horizontal entre botones */
     border-radius: 15px !important;            /* Bordes redondeados */
     font-weight: 600;               /* Texto seminegrita */
     text-decoration: none;          /* Quita el subrayado de los enlaces */
@@ -27,18 +28,18 @@
 .navbar a.nav-link:hover {
     background-color: #000000 !important;      /* Fondo negro al pasar el mouse */
     color: #ffffff !important;                 /* Texto verde fosforescente */
-    transform: scale(1);            /* El botón se hace 2 veces más grande */
+    transform: scale(1.5);            /* El botón se hace 2 veces más grande */
 }
 
 /* Sección secundaria debajo del navbar (espaciador) */
 #secundario{
     width: 100% ;                   /* Ancho completo */
-    height: 12vh;                   /* Altura igual a la barra para evitar que la tapa */
+    height: 10vh;                   /* Altura igual a la barra para evitar que la tapa */
 }
 
 /* Contenedor sin márgenes ni padding */
 .container-fluid.contenedor{
-    margin: 0%;
+    margin: 1%;
     padding: 0%;
 }
 
@@ -50,7 +51,7 @@
 
 /* Estilos para imágenes del navbar */
 img{
-    height: 12vh;                   /* La imagen tendrá altura igual al navbar */
+    height: 10vh;                   /* La imagen tendrá altura igual al navbar */
     border:none !important;         /* Sin borde */
 }
 
@@ -88,7 +89,6 @@ footer{
     height: 10vh;                    /* Altura del 20% de la pantalla */
     background-color: rgb(255, 255, 255); /* Fondo blanco */
 }
-
 
 /* ===== Estilos de la barra de desplazamiento (scrollbar) ===== */
 

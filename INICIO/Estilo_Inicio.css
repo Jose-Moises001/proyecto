@@ -3,7 +3,6 @@ ody{
     padding: 0%;
 }
 
-
 /* section contenido1*/
 
 #contenido1{
@@ -16,35 +15,35 @@ ody{
     height: 88vh;
 }
 
-
 .desenfoque{
     width: 100%;
     height: 88vh;
     backdrop-filter: blur(6px);
     padding: 14%;
 }
-.car{
-    width: 100%;
-    height: 88vh;
-    background-size: 100% 88vh;
-    font-size: 1.2rem;
-    
-}
-.car.itm1{
 
+.car{
+    height: 80vh;
+    background-size: 100% 80vh;
+    border-radius: 10px;
+    padding: 18px 24px;
+    margin: 100px auto;
+    box-sizing: border-box;     
+}
+
+.car.itm1{
     background-image:url('../Recursos/Imagenes_inicio/selva_oscura_animales.jpg') ;
     backdrop-filter: blur(10px);
-
 }
 
 .car.itm2{
 
     background-image:url('../Recursos/Imagenes_inicio/selva_animales_moos.jpg') ;
 }
+
 .car.itm3{
 
     background-image:url('../Recursos/Imagenes_inicio/selva_tropical.jpg') ;
-
 }
 
 @media(min-width:791px){
@@ -90,9 +89,9 @@ ody{
    .formato-t{              /* Selecciona cualquier elemento con la clase formato-t */
     min-height: 10vh;    /* Define una altura mínima del 50% del alto total de la pantalla del usuario */
     width: 80%;          /* El ancho del elemento será el 50% del contenedor padre */
-    padding: 1%;
+    padding: 5%;
     margin: auto;         /* Agrega un espacio interno del 2% en todos los lados del elemento */
-    font-size: 1.7rem;  /* Tamaño del texto: 1.05 veces el tamaño base del navegador (normalmente 16px) */
+    font-size: 2rem;  /* Tamaño del texto: 1.05 veces el tamaño base del navegador (normalmente 16px) */
     }
     
     .formato-t.texto0{
@@ -122,32 +121,6 @@ ody{
         color: rgb(235, 219, 0);
     }
 
-
-
-
-
-    /*.formato-t.texto1{
-        direction: rtl;
-        float: right;
-    }
-    
-    .formato-t.texto2{
-        direction: ltr;
-        float: left;
-        
-    }
-    
-    .formato-t.texto3{
-        direction: rtl!important;
-        float: right !important;
-    }
-
-
-
-
-
-
-
     /* Section contenido5*/
     
     #contenido5{
@@ -166,7 +139,7 @@ ody{
         width:90%;
         text-align: center;
         margin: auto;
-        color: rgb(255, 0, 0);
+        color: rgb(25, 0, 255);
         padding: 5%;
         overflow: auto;
         font-size: 1.7rem;
@@ -229,12 +202,12 @@ ody{
     }
     
     .txt{
-        border: 4px solid rgb(30, 255, 0);
+        border: 5px solid rgb(30, 255, 0);
         border-radius: 10px;
-        width: 80%;
+        width: 90%;
         margin: auto;
         color:#000000;
-        text-align: center;
-        font-size: 1.7rem;
+        text-align: center !important; 
+        font-size: 2rem;
     }
 }
