@@ -50,64 +50,67 @@ body{
 
     .principal{
         width: 100%;
-        height: 50vh;
+        height: 70vh;
     }
     
     .formato-i{
         min-height: 50vh ;
-        width: 20%;
-        padding: 2%;
+        width: 50%;
+        padding: 5%;
         border: none;
     }
     
     .formato-i.img0{
-        background-image: linear-gradient( to left, #ffffff, transparent),url('../recursos/CONTENIDO/TECHO_CASA.jpg');
+        background-image: url('../recursos/CONTENIDO/TECHO_CASA.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         float: left;
     }
     
     .formato-i.img1{
-        background-image: linear-gradient( to right, #ffffff, transparent),url('../recursos/CONTENIDO/Represa.jpg');
+        background-image: url('../recursos/CONTENIDO/INS_PANEL.jpg');
         background-size: cover;
+        background-repeat: no-repeat;
         float: right;
     }
     
     .formato-i.img2{
-        background-image: linear-gradient( to left, #ffffff, transparent),url('../Recursos/Imagenes_inicio/Campo_eolica.jpg');
+        background-image: url('../recursos/CONTENIDO/CASA_PANEL.jpg');
         background-size: cover;
+        background-repeat: no-repeat;
         float: left;
     }
 
     .formato-i.img3{
         background-image: linear-gradient( to left, #ffffff, transparent),url('../Recursos/Imagenes_inicio/Campo_eolica.jpg');
         background-size: cover;
+        background-repeat: no-repeat;
         float: left;
     }
     
    .formato-t{
         min-height: 50vh;
         width: 50%;
-        padding: 2%;
+        padding: 5%;
         overflow: auto;
         font-size: 1.5rem;
     }
 
      .formato-t.texto0{
+        padding: 2.5%;
         direction: ltr;
         float: right;
     }
     
     .formato-t.texto1{
+        padding: 5%;
         direction: ltr;
         float: left;
     }
    
     .formato-t.texto2{
-        width: 70% !important;
-        min-height: 30vh !important;
-        padding: 1% !important;
-        direction: ltr !important;
+        padding: 2.5%;
+        direction: ltr;
         float: right !important;
     }
     
@@ -127,7 +130,6 @@ body{
         height: 5vh;
         filter: brightness(1.1);
         mix-blend-mode:multiply;
-    
     }
     
     #texto{

@@ -1,7 +1,7 @@
 /* Estilos del menú de navegación (navbar) */
 .navbar{
     width: 100%;                                    /* La barra ocupa todo el ancho de la pantalla */
-    min-height: 12vh;                               /* Altura mínima del 12% del alto de la pantalla */
+    min-height: 10vh;                               /* Altura mínima del 12% del alto de la pantalla */
     max-height: 50vh;                                /* Altura máxima del 50% del alto de la pantalla */
     background-color: rgb(0, 0, 0) !important; /* Fondo negro (forzado con !important) */
     position: fixed;                                /* La barra queda fija en la parte superior */
@@ -14,8 +14,8 @@
     background-color: rgb(255, 255, 255);        /* Fondo blanco para cada botón */
     display: flex;
     color: rgb(0, 0, 0) !important;          /* Texto rojo (forzado con !important) */
-    padding: 8px 20px !important;   /* Espaciado interno (alto, lados) */
-    margin: 0 25px !important;                  /* Separación horizontal entre botones */
+    padding: 2px 10px !important;   /* Espaciado interno (alto, lados) */
+    margin: 0 30px !important;                  /* Separación horizontal entre botones */
     border-radius: 15px !important;            /* Bordes redondeados */
     font-weight: 600;               /* Texto seminegrita */
     text-decoration: none;          /* Quita el subrayado de los enlaces */
@@ -51,8 +51,8 @@
 
 /* Estilos para imágenes del navbar */
 img{
-    height: 10vh;                   /* La imagen tendrá altura igual al navbar */
-    border:none !important;         /* Sin borde */
+    height: 15vh;                   /* La imagen tendrá altura igual al navbar */
+    border: 2px solid rgb(157, 255, 0);         /* Sin borde */
 }
 
 
@@ -86,7 +86,7 @@ img{
 /* Estilo del pie de página */
 footer{
     width: 100%;                     /* Ocupa todo el ancho */
-    height: 10vh;                    /* Altura del 20% de la pantalla */
+    height: 5vh;                    /* Altura del 20% de la pantalla */
     background-color: rgb(255, 255, 255); /* Fondo blanco */
 }
 
@@ -102,5 +102,5 @@ body::-webkit-scrollbar{
 /* Thumb: el botón deslizable de la barra */
 body::-webkit-scrollbar-thumb{
     border-radius: 4px;              /* Bordes redondeados del thumb */
-    background-color: rgba(0, 0, 0, 1); /* Color cian brillante del thumb */
+    background-color: rgb(0, 255, 221); /* Color cian brillante del thumb */
 }
